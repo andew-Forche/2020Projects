@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.forchemadlibscififinal.ui.Home_Fragment"
+        tools:layout="fragment_home"
+        android:label="Home_Fragment" />
+    <fragment
+        android:id="@+id/nav_madlib"
+        android:name="com.example.forchemadlibscififinal.ui.madlib.Madlib_Fragment"
+        tools:layout="fragment_madlib"
+        android:label="Madlib_Fragment" />
+    <fragment
+        android:id="@+id/nav_scifi"
+        android:name="com.example.forchemadlibscififinal.ui.scifi.Scifi_Fragment"
+        tools:layout="fragment_scifi"
+        android:label="Scifi_Fragment" />
+</navigation>
